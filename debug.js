@@ -3,8 +3,10 @@ console.log(1); // 1=>◯=>◯=>1
 
 function toOneDimension(previousValue, currentValue) {
     console.log(sampleArrayA); // 4=>？=>4, 5
+    console.log(previousValue);
+    console.log(currentValue);
     return currentValue.concat(previousValue);
-    console.log(3); // 5=>？
+    console.log(3); // 5=>？ 
 
 }
 console.log(4); // 2=>◯=>◯=>2
@@ -41,4 +43,3 @@ console.log(8); // 8=>◯8
 console.log(9); // 9=>◯9
 
 
-console.log(toOneDimension(sampleArrayA));
